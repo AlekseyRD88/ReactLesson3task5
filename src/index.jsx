@@ -9,5 +9,5 @@ export const userData = {
   birthPlace: 'London',
 };
 
-const rootElement = document.querySelector('#root');
-ReactDOM.render(<Profile {...userData}/>, rootElement);
+const profileElement = document.querySelector('.profile');
+ReactDOM.render(<Profile {...userData}/>, profileElement);
