@@ -1,7 +1,7 @@
 import React from 'react';
 import moment from 'moment';
 
-export const formatDate = date => moment(date).format("DD MMM YYYY");
+export const formatDate = date => moment(date).format("DD MMM YY");
 const Profile = (userData) => {
   return(
     <div className="profile">
