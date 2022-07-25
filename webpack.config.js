@@ -28,7 +28,7 @@ module.exports = (env, argv) => {
                 }
             ],
         },
-        stats: { children: false },
+        //stats: { children: false },
         plugins: [
             new webpack.ProgressPlugin(),
             new CleanWebpackPlugin(),
